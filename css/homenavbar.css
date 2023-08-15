@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+    
+
+}
+.navbar{
+    background-color:#1E458A;
+    width: 100%;
+    padding:0%;
+    overflow:hidden;
+    height: 75px;
+    
+    
+}
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    
+    float:left;
+    
+    padding: 7px 20px 90px 90px;
+    color: #FFFFFF;
+    
+  
+    font-weight: 900;
+    font-size:larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar a:hover{
+    background-color:#DEE7ED;
+    color: black;
+    
+}
+body{
+   background-color:#FFFFFF;
+   background-image:url(/images/student.jpg);
+   width: 100%;
+
+   background-size:900px 500px;
+   background-position-y: 10%;
+   background-position-x: 10%;
+   background-repeat:no-repeat;
+   margin-bottom: 100%;
+   
+
+}
+
+
+ 
+.navbar h3{
+    color:#FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-right{
+    float:right;
+}

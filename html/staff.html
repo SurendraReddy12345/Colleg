@@ -1,0 +1,54 @@
+<DOCTYPE! html>
+<head>
+    <title>Home page</title>
+    <meta charset="UTF-8">
+     
+    <link rel="stylesheet" type="text/css" href="/css/homecard.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/staffcss.css">
+    
+</head>
+<body>
+    <div class="navbar">
+    
+        <ul>
+            <h3>C  M  S</h3>
+            <div class ="navbar-right">
+                <a href="#">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="student login.html">STUDENT</a>
+                <a href=" staff.html">STAFF</a>
+                <a href="">PARENT</a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="card">
+    <h3> STAFF LOGIN</h3>
+        <form onsubmit="return validate()">
+            <label><h4><pre>   Staff ID   </pre></h4></label>
+		    <input id="staff_id" type="text" name="staff_id"></input>
+            <label class="vaild1" id="notvaild">Invalid</label>
+		    <br>
+		    <br>
+		    <label><h4><pre> Password  </pre></h4></label>
+
+		    <input id="staff_password" type="password" name="staff_password"></input>
+            <label class="vaild2" id="notvaild1">Invalid</label>
+           
+		    <br>
+		    <br>
+            <button type="submit" onclick="validate()" >Log in</button>
+            <pre><a href="">      forgot password?</pre></a> 
+                
+        </form>
+      
+    </div>
+    <script src="/javaScript/staff_valid.js"></script>
+    
+    
+
+
+    
+</body>
+</html>

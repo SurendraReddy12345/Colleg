@@ -1,0 +1,89 @@
+.card {
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    padding: 5px 5px 90px 10px;
+    margin-top: 60px;;
+    margin-left: 800px;
+    margin-right:10px;
+    
+    border-radius: 3%;
+    border-style:groove;
+  
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(14, 14, 14, 0.863);
+  }
+  .card h3{
+    
+  }
+  label{
+    display:inline-block;
+    color:#1E458A;
+    border-radius: 500%;
+  }
+  button{
+    color:#1E458A;
+    background-color:#DEE7ED;
+    border-radius: 15%;
+    padding: 4px 20px;
+    margin-left: 40%;
+    border-color:#1E458A;
+  }
+  button:hover{
+    
+  }
+  .stdid{
+    border-radius: 10% 10% ;
+    align-items: center;
+    padding: 3px;
+  }
+  .password{
+    border-radius: 10% 10% ;
+    padding: 3px;
+  }
+
+
+.card h3{
+    margin: 10%;
+    color:#1E458A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card pre{
+    margin-left: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card input{
+  margin-left:50px;
+  margin-inline-end: 10px;
+  border-color: #1E458A;
+  border-radius: 0%;
+  border-top-color: #1E458A;
+}
+
+.card h4{
+
+}
+.card a{
+  text-decoration:none;
+}
+
+form a{
+  color: blue;
+}
+.vaild1{
+  color:red;
+  margin-left: 210px;
+  visibility:hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vaild2{
+  color:red;
+  margin-left: 210px;
+  visibility:hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
